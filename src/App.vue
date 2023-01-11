@@ -57,6 +57,29 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
+body{
+  background-color: #222;
+  scroll-margin-right: 100px;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 50px;
+  background-color: #222;
+}
+body::-webkit-scrollbar-track {
+  background-color: #555;
+  border-radius: 50px;
+  border: 1px solid darkviolet;
+}
+body::-webkit-scrollbar-thumb {
+  background-image: var(--primaryLinearGradient);
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5);
+}
+
 .bevel {
   box-shadow:  inset 0.2em 0.2em 0.2em 0 rgba(200,200,200,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5), 0 0 15px 2px black;
 }

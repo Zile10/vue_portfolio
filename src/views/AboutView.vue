@@ -3,7 +3,7 @@
     <div class="section-overlay">
       <h2 data-aos="zoom-in">About Me</h2>
       <div class="container-fluid container-lg about-container" data-aos="fade-right">
-        <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img" width="250px">
+        <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img about-img d-block">
           <div class="about-text bevel" data-aos="fade-left">
             <h5 data-aos="zoom-in">Who am I?</h5>
             <p data-aos="zoom-in" class="scroll">
@@ -42,15 +42,16 @@ export default {
 </script>
 
 <style scoped>
+/* About */
 #about .section-overlay {
   padding-bottom: 20px;
 }
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
 }
 .about-img {
-  grid-column: 1/2;
+  grid-column: 1/2 !important;
 }
 .about-text {
   grid-column: 2/-1;
@@ -60,31 +61,22 @@ export default {
   background-color: var(--primaryColor);
   border-radius: 10px;
   min-height: 450px;
-  color: #ddd;
 }
 .about-text p {
-  max-height: 300px;
+  max-height: 300px !important;
 }
 
 .profile-img {
-  /* max-width: 300px; */
   border-radius: 10px;
   box-shadow: 0 0 15px black;
   margin: 0 5px;
 }
-#home .profile-img {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 500px;
-}
 #about .profile-img {
   max-width: 300px;
 }
-.cv-open, .cv-download {
-  color: #ddd;
-}
+
+/* About (End) */
+
 .cv-btns {
   grid-column: 1/-1;
 }
@@ -133,5 +125,64 @@ export default {
 }
 .scroll:hover {
   overflow-y: auto;
+}
+
+
+@media only screen and (max-width: 720px) {
+  #home .profile-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #about {
+    padding-bottom: 40px;
+  }
+  .about-img {
+    grid-column: 1/-1 !important;
+    margin: 10px auto;
+  }
+  .about-text {
+    grid-column: 1/-1;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #about img, #home img {
+    margin: auto;
+    /* width: 85%; */
+  }
+  #about .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-text .cv-btns {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .skills-block {
+    width: 90%;
+  }
+  .project-card {
+    width: 90%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  h2 {
+    font-size: 2rem;
+  }
+  #home .profile-img {
+    width: 200px;
+    height:  200px;
+  }
+  #about {
+    /* width: 20px; */
+    word-wrap: break-word;
+    word-break: break-all;
+  }
 }
 </style>
