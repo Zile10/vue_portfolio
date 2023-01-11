@@ -1,28 +1,30 @@
 <template>
-  <div class="section-overlay">
-    <h2 data-aos="zoom-in">About Me</h2>
-    <div class="container-fluid container-lg about-container" data-aos="fade-right">
-      <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img" width="250px">
-        <div class="about-text bevel" data-aos="fade-left">
-          <h5 data-aos="zoom-in">Who am I?</h5>
-          <p data-aos="zoom-in" class="scroll">
-            I am an ambitious and hardworking person who enjoys working with others. I enjoy learning new things and often spend time reading/watching tutoriuals to expand my knowledge or practising new skills that I find interesting.
-            I am a hard-worker and I try my best to always be honest and reliable. I am often approached by colleagues when they need assistance and I generally enjoy helping them where I can. Even when I do not have the time to help others I still often find it difficult say no. In my spare time, I enjoy reading books, and playing chess.
-            <br>
-            <br>
-            I have always been fascinated by the idea of 'coding'. The idea that some genius could get a computer to do whatever he wanted, with just a few lines of code, fascinated me. It almost seems unreal when I see my own code preforming it's magic before my eyes. This is why I am aspiring to become a professional developer.
-            <br>
-            <br>
-          </p>
-          <div class="cv-btns"  data-aos="zoom-in">
-            <a href="./assets/CV (John-Bruce Noad).pdf" target="_blank"><button class="cv-open bevel">
-              View CV
-            </button></a>
-            <a href="./assets/CV (John-Bruce Noad).pdf" download><button class="cv-download bevel">
-              Download CV
-            </button></a>
-          </div>    
-        </div>
+  <div id="about">
+    <div class="section-overlay">
+      <h2 data-aos="zoom-in">About Me</h2>
+      <div class="container-fluid container-lg about-container" data-aos="fade-right">
+        <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img" width="250px">
+          <div class="about-text bevel" data-aos="fade-left">
+            <h5 data-aos="zoom-in">Who am I?</h5>
+            <p data-aos="zoom-in" class="scroll">
+              I am an ambitious and hardworking person who enjoys working with others. I enjoy learning new things and often spend time reading/watching tutorials to expand my knowledge or practising new skills that I find interesting.
+              I am a hard-worker and I try my best to always be honest and reliable. I am often approached by colleagues when they need assistance and I generally enjoy helping them where I can. Even when I do not have the time to help others I still often find it difficult say no. In my spare time, I enjoy reading books, and playing chess.
+              <br>
+              <br>
+              I have always been fascinated by the idea of 'coding'. The idea that some genius could get a computer to do whatever he wanted, with just a few lines of code, fascinated me. It almost seems unreal when I see my own code preforming it's magic before my eyes. This is why I am aspiring to become a professional developer.
+              <br>
+              <br>
+            </p>
+            <div class="cv-btns"  data-aos="zoom-in">
+              <a href="./assets/CV (John-Bruce Noad).pdf" target="_blank"><button class="cv-open bevel">
+                View CV
+              </button></a>
+              <a href="./assets/CV (John-Bruce Noad).pdf" download><button class="cv-download bevel">
+                Download CV
+              </button></a>
+            </div>    
+          </div>
+      </div>
     </div>
   </div>
 </template>
@@ -39,7 +41,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #about .section-overlay {
   padding-bottom: 20px;
 }

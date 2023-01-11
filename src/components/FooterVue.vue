@@ -49,6 +49,7 @@ export default {
     top: 0;
     padding: 20px;
     text-align: center;
+    word-wrap: break-word;
   }
 
   footer .info p {
