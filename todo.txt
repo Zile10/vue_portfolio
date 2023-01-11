@@ -1,3 +1,13 @@
-HOME: Colours
-About: Colours
-Resume: Responsiveness -->-->
+1. All: 
+  - Colours
+
+2. Resume, Projects, Testimonials: 
+  - Arrays
+
+3. PROJECTS, Testimonials: 
+  - 6 cards or 6 carousel slides
+
+4. Contact:
+  - Form Validation
+
+5 Animations
