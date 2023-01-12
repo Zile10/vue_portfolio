@@ -1,13 +1,31 @@
+JB, DO NOT HELP ANYONE TODAY, NO MATTER HOW SMALL THEIR ISSUE IS!
+If you must, you can help them TOMORROW!
+_________________________________________________________________________________________________
+_________________________________________________________________________________________________
+
 1. All: 
   - Colours
+    * Use your previous portfolio & other ppls (e.g. Laz) as reference.
+    * Change Bevels, corners, layout, etc to match new design
+    * A 'lighter' coloured design may look nice...
+    * change nav to better match colour scheme 
+
 
 2. Resume, Projects, Testimonials: 
   - Arrays
+    * look at examples from others... 
+    * create arrays in 'data()' method
+
+5. Animations
+    * logo, 
+    * text animations (cdn libraries), 
+    * canvas js bubbles (e.g. on projects page)
+
+
 
 3̶.̶ ̶P̶R̶O̶J̶E̶C̶T̶S̶,̶ ̶T̶e̶s̶t̶i̶m̶o̶n̶i̶a̶l̶s̶:̶ ̶
 ̶ ̶ ̶-̶ ̶6̶ ̶c̶a̶r̶d̶s̶ ̶o̶r̶ ̶6̶ ̶c̶a̶r̶o̶u̶s̶e̶l̶ ̶s̶l̶i̶d̶e̶s̶
 
+
 4̶.̶ ̶C̶o̶n̶t̶a̶c̶t̶:̶
 ̶ ̶ ̶-̶ ̶F̶o̶r̶m̶ ̶V̶a̶l̶i̶d̶a̶t̶i̶o̶n̶
-
-5. Animations
