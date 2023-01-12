@@ -2,7 +2,7 @@
   <div class="section-overlay">
     <h2 data-aos="zoom-in">Contact</h2>
     <div class="container mb-5">
-      <form action="https://formspree.io/f/xqkjbnkv"  method="POST" target="_blank">
+      <form action="https://formspree.io/f/xqkjbnkv"  method="POST" target="_blank" name="myForm">
         <div data-aos="fade-right">
           <label for="#firstname" class="d-block">Name</label>
           <input id="firstname" name="firstName" type="text" placeholder="Enter your name" required>
@@ -13,7 +13,7 @@
         </div>
         <div data-aos="fade-right">
           <label for="#email" class="d-block">Email Address</label>
-          <input id="email" name="email" type="text" placeholder="Enter your email address" required>
+          <input id="email" name="email" type="email" placeholder="Enter your email address" required>
         </div>
         <div data-aos="fade-left">
           <label for="#message" class="d-block" aria-placeholder="#contact">Message</label>
@@ -33,7 +33,25 @@ export default {
   name: 'HomeView',
   components: {
 
-  }
+  },
+  methods: {
+    // validateForm() {     
+    //   let x = document.forms["myForm"]
+    //   x.forEach(item => {
+    //     let y = item.value;
+    //     if (y == "") {
+    //       alert("Name must be filled out");
+    //       return false;
+    //     }
+    //   });
+    // }
+
+  },
+  data() {
+    return {
+
+    }
+  },
 }
 </script>
 

@@ -50,6 +50,14 @@
               John-Bruce Noad is somebody  that is vital to any team, not only is he a point of reference when needed,  He is always there to help you. With him on your team makes tasks a whole lot easier and less stressful. I highly admire his work ethic and passion. 10*
             "
         />
+        <TestimonialVue 
+          imgSrc="https://i.postimg.cc/T3h9Mgd5/t0.jpg"
+          name="Imraan"
+          surname="Bernken"
+          quote="
+              John is a genius by heart, hard-working, constantly wants to improve and be better at everything he does. He is a very friendly and does mind helping others in need. A passionate person and its always a pleasure to engage in conversion with him.
+            "
+        />
       </div>
     </div>
   </div>

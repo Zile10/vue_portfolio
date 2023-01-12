@@ -2,7 +2,7 @@
   <div class="section-overlay">
     <h2 data-aos="zoom-in">Projects</h2>
     
-    <Carousel>
+    <Carousel slides="6">
       <div class="carousel-item active">
         <ProjectCard 
           title="Running Man Game!" 
@@ -30,6 +30,36 @@
           githubRepo="https://github.com/Zile10/revision_day.git" 
           imgSrc="https://i.postimg.cc/FKD8y8k3/revision-site-preview.png" 
           description="A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage."
+        />
+      </div>
+
+      <div class="carousel-item">
+        <ProjectCard 
+          title="JS Calculator" 
+          siteUrl="https://john-bruce-js-calculator.netlify.app/" 
+          githubRepo="https://github.com/Zile10/calculator.git" 
+          imgSrc="https://i.postimg.cc/Y9Cr8vg7/calculator-preview.png" 
+          description="Calculator"
+        />
+      </div>
+
+      <div class="carousel-item">
+        <ProjectCard 
+          title="JS E-commerce Site " 
+          siteUrl="https://john-bruce-js-eomp.netlify.app/" 
+          githubRepo="https://github.com/Zile10/POS_system.git" 
+          imgSrc="https://i.postimg.cc/t4q7B3f1/Ecom-preview.png" 
+          description=""
+        />
+      </div>
+
+      <div class="carousel-item">
+        <ProjectCard 
+          title="HTML & CSS Portfolio" 
+          siteUrl="https://john-bruce-portfolio.netlify.app/" 
+          githubRepo="https://github.com/Zile10/portfolio.git" 
+          imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
+          description=""
         />
       </div>
     </Carousel>
