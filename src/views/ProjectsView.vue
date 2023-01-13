@@ -34,6 +34,7 @@
             imgSrc="https://i.postimg.cc/FKD8y8k3/revision-site-preview.png" 
             description="A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage."
           />
+          <DogAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -73,15 +74,18 @@
 <script>
 import Carousel from '@/components/CarouselVue.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
-import BallsAnimation from '@/components/BallsAnimation.vue'
-import StarsAnimation from '@/components/StarsAnimation.vue'
+
+import BallsAnimation from '@/components/animations/BallsAnimation.vue'
+import StarsAnimation from '@/components/animations/StarsAnimation.vue'
+import DogAnimation from '@/components/animations/DogAnimation.vue'
 export default {
   name: 'HomeView',
   components: {
     Carousel,
     ProjectCard,
     BallsAnimation,
-    StarsAnimation
+    StarsAnimation,
+    DogAnimation
   }
 }
 </script>

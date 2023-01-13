@@ -61,16 +61,16 @@ export default {
     background-color: #3e32e7;
   }
   div.star:nth-child(4) {
-    top: 60%;
-    left: 68%;
+    top: 50%;
+    left: 88%;
     animation: twinkle 4s alternate-reverse infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #b732e7;
     background-color: #b732e7;
   }
 
   div.star:nth-child(5) {
-    top: 70%;
-    left: 16%;
+    top: 72%;
+    left: 15%;
     animation: twinkle 5s alternate infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #e732c0;
     background-color: #e732c0;
@@ -83,7 +83,7 @@ export default {
     background-color: #e73238;
   }
   div.star:nth-child(7) {
-    top: 10%;
+    top: 15%;
     left: 85%;
     animation: twinkle 10s alternate infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #32e7e4;
@@ -105,21 +105,21 @@ export default {
     background-color: #e732c0;
   }
   div.star:nth-child(10) {
-    top: 65%;
-    left: 80%;
+    top: 69%;
+    left: 87%;
     animation: twinkle 9s alternate-reverse infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #3e32e7;
     background-color: #3e32e7;
   }
   div.star:nth-child(11) {
-    top: 29%;
-    left: 27%;
+    top: 79%;
+    left: 23%;
     animation: twinkle 9s alternate infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #b732e7;
     background-color: #b732e7;
   }
   div.star:nth-child(12) {
-    top: 2%;
+    top: 52%;
     left: 12%;
     animation: twinkle 9s alternate-reverse infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #32e7e4;
@@ -135,7 +135,7 @@ export default {
   }
   div.star:nth-child(14) {
     top: 25%;
-    left: 85%;
+    left: 25%;
     animation: twinkle 9s alternate-reverse infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #3e32e7;
     background-color: #3e32e7;
@@ -149,7 +149,7 @@ export default {
   }
   div.star:nth-child(16) {
     top: 85%;
-    left: 67%;
+    left: 75%;
     animation: twinkle 9s alternate-reverse infinite;
     box-shadow: 0 0 20px #fff, 0 0 5px 0px #32e7e4;
     background-color: #32e7e4;
@@ -169,7 +169,7 @@ export default {
       opacity: 0.3;
     }
     100% {
-      transform: scale(2);
+      transform: scale(2.5);
       opacity: 0.9;
     }
   }
