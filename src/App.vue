@@ -54,7 +54,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #42b983 !important;
 }
 
 body{
@@ -62,7 +62,6 @@ body{
   scroll-margin-right: 100px;
   overflow-x: hidden;
 }
-
 body::-webkit-scrollbar {
   width: 15px;
   border-radius: 50px;
@@ -79,6 +78,15 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid black;
   box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5);
 }
+div#home, div#about, div#projects, div#resume, div#testimonials, div#contact {
+  width: 100%;
+  /* min-height: calc(100vh - var(--navHeight)); */
+  scroll-margin-top: 100px;
+
+  /* background-image: url('../assets/img/top-view-dark-modern-workplace-open-laptop.jpg'); */
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 .bevel {
   box-shadow:  inset 0.2em 0.2em 0.2em 0 rgba(200,200,200,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5), 0 0 15px 2px black;
@@ -87,4 +95,18 @@ body::-webkit-scrollbar-thumb {
 .bevel2 {
   box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5), 0 0 15px 2px black;
 }
+
+/* Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Animation (End) */
 </style>

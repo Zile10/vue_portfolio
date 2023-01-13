@@ -1,5 +1,5 @@
 <template>
-  <!-- <section id="education" class="d-flex flex-column align-items-center work-section"> -->
+  <div id="education" class="d-flex flex-column align-items-center work-section">
     <div class="section-overlay">
       <h2 data-aos="zoom-in">Education</h2>
       <div data-aos="zoom-in" class="container education-block bevel">
@@ -30,10 +30,10 @@
 
       </div>
     </div>
-  <!-- </section> -->
+  </div>
 
   <!-- Skills -->
-  <!-- <section id="skills" class="d-flex flex-column align-items-center work-section"> -->
+  <div id="skills" class="d-flex flex-column align-items-center work-section">
     <div class="section-overlay">
       <h2 data-aos="zoom-in">Skills</h2>
       <div data-aos="zoom-in" class="d-flex flex-column align-items-center justify-content-center">
@@ -117,11 +117,9 @@
 
           </div>
         </div>
-
-
       </div>
     </div>
-  <!-- </section> -->
+  </div>
 </template>
 
 <script>
@@ -141,6 +139,9 @@ export default {
     word-wrap: break-word;
   }
 
+  .section-overlay {
+    width: 100%;
+  }
 /* Education */
 .education-block {
   width: 70%;

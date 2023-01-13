@@ -22,6 +22,9 @@ export default {
   props: ['title', 'siteUrl', 'githubRepo', 'imgSrc', 'description']
 }
 </script>
-<style lang="">
-  
+<style>
+  div.card {
+    z-index: 2;
+    background-color: transparent;
+  }
 </style>

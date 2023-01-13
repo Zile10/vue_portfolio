@@ -1,79 +1,87 @@
 <template>
-  <div class="section-overlay">
-    <h2 data-aos="zoom-in">Projects</h2>
-    
-    <Carousel slides="6">
-      <div class="carousel-item active">
-        <ProjectCard 
-          title="Running Man Game!" 
-          siteUrl="https://running-man-game.netlify.app/" 
-          githubRepo="https://github.com/Zile10/runningManGame.git" 
-          imgSrc="https://i.postimg.cc/hGFH4VWQ/running-Man-Game-preview.png" 
-          description="To test my self-taught coding skills, one of my first practise projects was this 'Running Game'. Based on and inspired by Google Chrome's very own Dinosaur Game! Now with an incomplete menu! 😂"
-        />
-      </div>
-
-      <div class="carousel-item">
-        <ProjectCard 
-          title="Canvas JS Bouncy Balls Simulation!" 
-          siteUrl="https://canvas-bouncy-balls.netlify.app/" 
-          githubRepo="https://github.com/Zile10/canvasBoucyBalls.git" 
-          imgSrc="https://i.postimg.cc/tTd1vdy3/canvas-Boucy-Balls-preview.png" 
-          description="After learning about canvas.js and all it could do, I began practising using it, by building a few basic simulations. This gravity simulation, was one of those first few simulation. Tip: Click anywhere to restart the simulation."
-        />
-      </div>
-
-      <div class="carousel-item">
-        <ProjectCard 
-          title="Life Choices HTML/CSS Revision Project" 
-          siteUrl="https://revision-dummy.netlify.app/" 
-          githubRepo="https://github.com/Zile10/revision_day.git" 
-          imgSrc="https://i.postimg.cc/FKD8y8k3/revision-site-preview.png" 
-          description="A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage."
-        />
-      </div>
-
-      <div class="carousel-item">
-        <ProjectCard 
-          title="JS Calculator" 
-          siteUrl="https://john-bruce-js-calculator.netlify.app/" 
-          githubRepo="https://github.com/Zile10/calculator.git" 
-          imgSrc="https://i.postimg.cc/Y9Cr8vg7/calculator-preview.png" 
-          description="Calculator"
-        />
-      </div>
-
-      <div class="carousel-item">
-        <ProjectCard 
-          title="JS E-commerce Site " 
-          siteUrl="https://john-bruce-js-eomp.netlify.app/" 
-          githubRepo="https://github.com/Zile10/POS_system.git" 
-          imgSrc="https://i.postimg.cc/t4q7B3f1/Ecom-preview.png" 
-          description=""
-        />
-      </div>
-
-      <div class="carousel-item">
-        <ProjectCard 
-          title="HTML & CSS Portfolio" 
-          siteUrl="https://john-bruce-portfolio.netlify.app/" 
-          githubRepo="https://github.com/Zile10/portfolio.git" 
-          imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
-          description=""
-        />
-      </div>
-    </Carousel>
+  <div id="projects">
+    <div class="section-overlay">
+      <h2 data-aos="zoom-in">Projects</h2>
+      
+      <Carousel slides="6">
+        <div class="carousel-item active">
+          <ProjectCard 
+            title="Running Man Game!" 
+            siteUrl="https://running-man-game.netlify.app/" 
+            githubRepo="https://github.com/Zile10/runningManGame.git" 
+            imgSrc="https://i.postimg.cc/hGFH4VWQ/running-Man-Game-preview.png" 
+            description="To test my self-taught coding skills, one of my first practise projects was this 'Running Game'. Based on and inspired by Google Chrome's very own Dinosaur Game! Now with an incomplete menu! 😂"
+          />
+          <StarsAnimation/>
+        </div>
+  
+        <div class="carousel-item">
+          <ProjectCard 
+            title="Canvas JS Bouncy Balls Simulation!" 
+            siteUrl="https://canvas-bouncy-balls.netlify.app/" 
+            githubRepo="https://github.com/Zile10/canvasBoucyBalls.git" 
+            imgSrc="https://i.postimg.cc/tTd1vdy3/canvas-Boucy-Balls-preview.png" 
+            description="After learning about canvas.js and all it could do, I began practising using it, by building a few basic simulations. This gravity simulation, was one of those first few simulation. Tip: Click anywhere to restart the simulation."
+          />
+          <BallsAnimation/>
+        </div>
+  
+        <div class="carousel-item">
+          <ProjectCard 
+            title="Life Choices HTML/CSS Revision Project" 
+            siteUrl="https://revision-dummy.netlify.app/" 
+            githubRepo="https://github.com/Zile10/revision_day.git" 
+            imgSrc="https://i.postimg.cc/FKD8y8k3/revision-site-preview.png" 
+            description="A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage."
+          />
+        </div>
+  
+        <div class="carousel-item">
+          <ProjectCard 
+            title="JS Calculator" 
+            siteUrl="https://john-bruce-js-calculator.netlify.app/" 
+            githubRepo="https://github.com/Zile10/calculator.git" 
+            imgSrc="https://i.postimg.cc/Y9Cr8vg7/calculator-preview.png" 
+            description="Calculator"
+          />
+        </div>
+  
+        <div class="carousel-item">
+          <ProjectCard 
+            title="JS E-commerce Site " 
+            siteUrl="https://john-bruce-js-eomp.netlify.app/" 
+            githubRepo="https://github.com/Zile10/POS_system.git" 
+            imgSrc="https://i.postimg.cc/t4q7B3f1/Ecom-preview.png" 
+            description=""
+          />
+        </div>
+  
+        <div class="carousel-item">
+          <ProjectCard 
+            title="HTML & CSS Portfolio" 
+            siteUrl="https://john-bruce-portfolio.netlify.app/" 
+            githubRepo="https://github.com/Zile10/portfolio.git" 
+            imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
+            description=""
+          />
+        </div>
+      </Carousel>
+    </div>
   </div>
 </template>
 
 <script>
 import Carousel from '@/components/CarouselVue.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
+import BallsAnimation from '@/components/BallsAnimation.vue'
+import StarsAnimation from '@/components/StarsAnimation.vue'
 export default {
   name: 'HomeView',
   components: {
     Carousel,
     ProjectCard,
+    BallsAnimation,
+    StarsAnimation
   }
 }
 </script>
@@ -133,6 +141,7 @@ export default {
 
 h1, h2, h3, h4, h5, h6, p{
   word-wrap: break-word;
+  /* background-color: #ffffff4d; */
 }
 
 @media only screen and (max-width: 720px) {

@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style>
-  
+  #projectCarousel {
+    z-index: 1;
+  }
 </style>
