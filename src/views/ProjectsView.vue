@@ -43,8 +43,9 @@
             siteUrl="https://john-bruce-js-calculator.netlify.app/" 
             githubRepo="https://github.com/Zile10/calculator.git" 
             imgSrc="https://i.postimg.cc/Y9Cr8vg7/calculator-preview.png" 
-            description="Calculator"
+            description="A calculator project I created during the LC Coding Course using JS. The display uses basic HTML and CSS. It can preform basic functions such ad addition subtraction multiplication and division, as well as slightly more complete functions suc as exponents and square roots, all while following the 'BODMAS' rule."
           />
+          <MathAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -53,7 +54,7 @@
             siteUrl="https://john-bruce-js-eomp.netlify.app/" 
             githubRepo="https://github.com/Zile10/POS_system.git" 
             imgSrc="https://i.postimg.cc/t4q7B3f1/Ecom-preview.png" 
-            description=""
+            description="An e-commerce site that I created during the LC Coding Course. With a complete and working products page, checkout system, and admin page, using the CRUD system! Data is stored in and fetched from the local storage."
           />
         </div>
   
@@ -63,7 +64,7 @@
             siteUrl="https://john-bruce-portfolio.netlify.app/" 
             githubRepo="https://github.com/Zile10/portfolio.git" 
             imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
-            description=""
+            description="My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I amquite proud of this design, and managed to score highly on this project! 😄"
           />
         </div>
       </Carousel>
@@ -78,6 +79,7 @@ import ProjectCard from '@/components/ProjectCard.vue'
 import BallsAnimation from '@/components/animations/BallsAnimation.vue'
 import StarsAnimation from '@/components/animations/StarsAnimation.vue'
 import DogAnimation from '@/components/animations/DogAnimation.vue'
+import MathAnimation from '@/components/animations/MathAnimation.vue'
 export default {
   name: 'HomeView',
   components: {
@@ -85,7 +87,8 @@ export default {
     ProjectCard,
     BallsAnimation,
     StarsAnimation,
-    DogAnimation
+    DogAnimation,
+    MathAnimation
   }
 }
 </script>
