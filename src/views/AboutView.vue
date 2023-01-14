@@ -16,12 +16,12 @@
               <br>
             </p>
             <div class="cv-btns"  data-aos="zoom-in">
-              <a href="./assets/CV (John-Bruce Noad).pdf" target="_blank"><button class="cv-open bevel">
+              <a href="https://drive.google.com/file/d/1DJbRrfjiwCsHI2xIkCYnIDgU8Q-KOd_S/view?usp=share_link" target="_blank"><button class="cv-open bevel">
                 View CV
               </button></a>
-              <a href="./assets/CV (John-Bruce Noad).pdf" download><button class="cv-download bevel">
+              <!-- <a href="../assets/CV (John-Bruce Noad).pdf" download><button class="cv-download bevel">
                 Download CV
-              </button></a>
+              </button></a> -->
             </div>    
           </div>
       </div>
