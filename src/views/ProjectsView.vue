@@ -56,6 +56,7 @@
             imgSrc="https://i.postimg.cc/t4q7B3f1/Ecom-preview.png" 
             description="An e-commerce site that I created during the LC Coding Course. With a complete and working products page, checkout system, and admin page, using the CRUD system! Data is stored in and fetched from the local storage."
           />
+          <MoneyAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -80,6 +81,7 @@ import BallsAnimation from '@/components/animations/BallsAnimation.vue'
 import StarsAnimation from '@/components/animations/StarsAnimation.vue'
 import DogAnimation from '@/components/animations/DogAnimation.vue'
 import MathAnimation from '@/components/animations/MathAnimation.vue'
+import MoneyAnimation from '@/components/animations/MoneyAnimation.vue'
 export default {
   name: 'HomeView',
   components: {
@@ -88,7 +90,8 @@ export default {
     BallsAnimation,
     StarsAnimation,
     DogAnimation,
-    MathAnimation
+    MathAnimation,
+    MoneyAnimation,
   },
   data() {
     return {
