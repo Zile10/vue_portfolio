@@ -39,9 +39,11 @@ export default {
   }
 
   nav {
-    box-shadow: 0 0 10px 0px black;
+    box-shadow: 0 0 10px 5px black !important;
     word-wrap: break-word;
     padding: 15px;
+    z-index: 50;
+    position: relative;
   }
   .logo {
     /* filter: invert(100%); */

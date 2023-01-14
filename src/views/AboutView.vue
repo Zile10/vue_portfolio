@@ -62,7 +62,7 @@ export default {
   margin-left: 10px;
   padding: 15px 30px;
   background-color: var(--primaryColor);
-  border-radius: 10px;
+  border-radius: 3px;
   min-height: 450px;
 }
 .about-text p {
