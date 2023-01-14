@@ -30,6 +30,23 @@ export default {
 </script>
 
 <style scoped>
+  .testimonial-picture {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px auto;
+    border-radius: 15px;
+  }
+  .modal .testimonial-picture {
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    margin: 10px auto;
+    border-radius: 15px;
+  }
+
   h5, p {
     color: #ddd;
   }
