@@ -89,7 +89,61 @@ export default {
     StarsAnimation,
     DogAnimation,
     MathAnimation
-  }
+  },
+  data() {
+    return {
+      projects: [
+        {
+          project: 'Running Man Game!',
+          sitUrl: "https://running-man-game.netlify.app/",
+          githubRepo:"https://github.com/Zile10/runningManGame.git",
+          imgSrc:"https://i.postimg.cc/hGFH4VWQ/running-Man-Game-preview.png",
+          description:"To test my self-taught coding skills, one of my first practise projects was this 'Running Game'. Based on and inspired by Google Chrome's very own Dinosaur Game! Now with an incomplete menu! 😂",
+          animation: "StarsAnimation"
+        },
+        {
+          project: "Canvas JS Bouncy Balls Simulation!",
+          sitUrl: "https://canvas-bouncy-balls.netlify.app/",
+          githubRepo: "https://github.com/Zile10/canvasBoucyBalls.git",
+          imgSrc: "https://i.postimg.cc/tTd1vdy3/canvas-Boucy-Balls-preview.png",
+          description: "After learning about canvas.js and all it could do, I began practising using it, by building a few basic simulations. This gravity simulation, was one of those first few simulation. Tip: Click anywhere to restart the simulation.",
+          animation: "BallsAnimation"
+        },
+        {
+          project: "Life Choices HTML/CSS Revision Project",
+          sitUrl: "https://revision-dummy.netlify.app/",
+          githubRepo: "https://github.com/Zile10/revision_day.git",
+          imgSrc: "https://i.postimg.cc/FKD8y8k3/revision-site-preview.png",
+          description: "A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage.",
+          animation: "DogAnimation"
+        },
+        {
+          project: "JS Calculator",
+          sitUrl: "https://john-bruce-js-calculator.netlify.app/",
+          githubRepo: "https://github.com/Zile10/calculator.git",
+          imgSrc: "https://i.postimg.cc/Y9Cr8vg7/calculator-preview.png",
+          description: "A calculator project I created during the LC Coding Course using JS. The display uses basic HTML and CSS. It can preform basic functions such ad addition subtraction multiplication and division, as well as slightly more complete functions suc as exponents and square roots, all while following the 'BODMAS' rule.",
+          animation: "MathAnimation"
+        },
+        {
+          project: "JS E-commerce Site",
+          sitUrl: "https://john-bruce-js-eomp.netlify.app/",
+          githubRepo: "https://github.com/Zile10/POS_system.git",
+          imgSrc: "https://i.postimg.cc/t4q7B3f1/Ecom-preview.png",
+          description: "An e-commerce site that I created during the LC Coding Course. With a complete and working products page, checkout system, and admin page, using the CRUD system! Data is stored in and fetched from the local storage.",
+          animation: ""
+        },
+        {
+          project: "HTML & CSS Portfolio",
+          sitUrl: "https://john-bruce-portfolio.netlify.app/",
+          githubRepo: "https://github.com/Zile10/portfolio.git",
+          imgSrc: "https://i.postimg.cc/J4WskV55/portfolio-preview.png",
+          description: "My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I am quite proud of this design, and managed to score highly on this project! 😄",
+          animation: ""
+        },
+      ]
+    }
+  },
 }
 </script>
 

@@ -133,7 +133,24 @@ export default {
   name: 'HomeView',
   components: {
     // HelloWorld
-  }
+  },
+  data() {
+    return {
+      resume: [
+        {
+          //Education
+          secondarySchool: '',
+          qualification: '',
+          year: '',
+          additionalAchievements: '',
+          courses: [],
+        },
+        {
+          //Skills
+        }
+      ]
+    }
+  },
 }
 </script>
 
