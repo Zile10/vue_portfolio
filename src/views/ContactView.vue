@@ -1,7 +1,7 @@
 <template>
   <div id="contact">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in">Contact</h2>
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Contact</h2>
       <div class="container mb-5">
         <form action="https://formspree.io/f/xqkjbnkv"  method="POST" target="_blank" name="myForm">
           <div data-aos="fade-right">

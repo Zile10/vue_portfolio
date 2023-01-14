@@ -1,7 +1,7 @@
 <template>
   <div id="testimonials">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in">Testimonials</h2>
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Testimonials</h2>
       <div class="container">
         <div class="grid-div overflow-hidden">
   

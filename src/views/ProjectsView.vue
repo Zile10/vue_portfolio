@@ -1,7 +1,7 @@
 <template>
   <div id="projects">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in">Projects</h2>
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Projects</h2>
       
       <Carousel slides="6">
 

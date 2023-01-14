@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <div class="section-overlay">
-        <h1 class="d-block intro" data-aos="zoom-in">Hi There</h1>
+        <h1 class="d-block intro animate__animated animate__bounceIn" data-aos="zoom-in">Hi There</h1>
         <div class="d-block">
           <h4 data-aos="fade-left">I am John-Bruce Noad. Welcome to my page!</h4>
           <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img img-fluid">

@@ -1,7 +1,7 @@
 <template>
   <div id="skills" class="d-flex flex-column align-items-center work-section">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in">Skills</h2>
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Skills</h2>
       <div data-aos="zoom-in" class="d-flex flex-column align-items-center justify-content-center">
 
         <div class="container skills-block bevel mt-5">
