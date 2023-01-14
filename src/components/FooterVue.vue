@@ -47,7 +47,7 @@ export default {
     z-index: 20;
     min-height: var(--navHeight);
     top: 0;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     word-wrap: break-word;
   }

@@ -43,6 +43,9 @@ export default {
 
 <style scoped>
 /* About */
+#about {
+  background-image: url(https://i.postimg.cc/4dcKMWXH/jeshoots-com-unsplash-white-desk.jpg);
+}
 #about .section-overlay {
   padding-bottom: 20px;
 }

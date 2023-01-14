@@ -39,8 +39,8 @@ export default {
     border-radius: 30px;
   }
   div.star {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
     position: absolute;
     border-radius: 50px;
     animation: 4s linear infinite;

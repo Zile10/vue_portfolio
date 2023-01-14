@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style scoped>
+  #home {
+    background-image: url(https://i.postimg.cc/7LdGmFry/lauren-mancke-unsplash-white-desk.jpg);
+  }
   #home .profile-img {
     width: 350px;
     height: 350px;

@@ -37,19 +37,6 @@ export default {
   components: {
 
   },
-  methods: {
-    // validateForm() {     
-    //   let x = document.forms["myForm"]
-    //   x.forEach(item => {
-    //     let y = item.value;
-    //     if (y == "") {
-    //       alert("Name must be filled out");
-    //       return false;
-    //     }
-    //   });
-    // }
-
-  },
   data() {
     return {
 
@@ -59,6 +46,9 @@ export default {
 </script>
 
 <style>
+#contact {
+  background-image: url(https://i.postimg.cc/y8SDpVsY/devices-background.webp);
+}
 input, textarea {
   width: 85%;
   color: #222;

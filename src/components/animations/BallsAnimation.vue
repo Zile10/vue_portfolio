@@ -20,7 +20,7 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
   div.bubble {
     width: 60px;
     height: 60px;
@@ -41,7 +41,7 @@ export default {
   div.bubble:nth-child(3) {
     top: 40%;
     left: 73%;
-    animation: animateBubbles 10s linear infinite;
+    animation: animateBubbles 5.5s linear infinite;
     border-color: #3e32e7;
     background-color: #3e32e74d;
   }
@@ -70,7 +70,7 @@ export default {
   div.bubble:nth-child(7) {
     top: 10%;
     left: 85%;
-    animation: animateBubbles 10s linear infinite;
+    animation: animateBubbles 9.8s linear infinite;
     border-color: #32e7e4;
     background-color: #32e7e44d;
   }
@@ -84,29 +84,29 @@ export default {
 
   div.bubble:nth-child(9) {
     top: 65%;
-    left: 80%;
-    animation: animateBubbles 9s linear infinite;
+    left: 85%;
+    animation: animateBubbles 7.5s linear infinite;
     border-color: #e732c0;
     background-color: #e732c04d;
   }
   div.bubble:nth-child(10) {
     top: 65%;
     left: 80%;
-    animation: animateBubbles 9s linear infinite;
+    animation: animateBubbles 8s linear infinite;
     border-color: #3e32e7;
     background-color: #3e32e74d;
   }
   div.bubble:nth-child(11) {
     top: 29%;
     left: 27%;
-    animation: animateBubbles 9s linear infinite;
+    animation: animateBubbles 8.5s linear infinite;
     border-color: #b732e7;
     background-color: #b732e74d;
   }
   div.bubble:nth-child(12) {
     top: 2%;
     left: 12%;
-    animation: animateBubbles 9s linear infinite;
+    animation: animateBubbles 6.5s linear infinite;
     border-color: #32e7e4;
     background-color: #32e7e44d;
   }
@@ -114,14 +114,14 @@ export default {
   div.bubble:nth-child(13) {
     top: 10%;
     left: 20%;
-    animation: animateBubbles 9s linear infinite;
+    animation: animateBubbles 10s linear infinite;
     border-color: #e73238;
     background-color: #e732384d;
   }
 
   @keyframes animateBubbles {
     0% {
-      transform: scale(0) translateY(0);
+      transform: scale(0.4) translateY(0);
     }
     100% {
       transform: scale(1.3) translateY(100px);

@@ -64,7 +64,7 @@
             siteUrl="https://john-bruce-portfolio.netlify.app/" 
             githubRepo="https://github.com/Zile10/portfolio.git" 
             imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
-            description="My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I amquite proud of this design, and managed to score highly on this project! 😄"
+            description="My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I am quite proud of this design, and managed to score highly on this project! 😄"
           />
         </div>
       </Carousel>
@@ -94,6 +94,9 @@ export default {
 </script>
 
 <style>
+#projects {
+  background-image: url(https://i.postimg.cc/SsKq5rC7/top-view-dark-modern-workplace-open-laptop.jpg);
+}
 .project-card {
   min-height: 280px;
   width: 350px;

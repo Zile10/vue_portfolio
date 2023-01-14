@@ -77,6 +77,9 @@ export default {
 
 
 <style>
+#testimonials{
+  background: url(https://i.postimg.cc/jSWj419b/alesia-unsplash-workplace.jpg);
+}
 .testimonial-picture {
   width: 90%;
   height: 200px;
