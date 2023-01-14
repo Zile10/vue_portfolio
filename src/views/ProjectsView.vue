@@ -67,6 +67,7 @@
             imgSrc="https://i.postimg.cc/J4WskV55/portfolio-preview.png" 
             description="My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I am quite proud of this design, and managed to score highly on this project! 😄"
           />
+          <PortfolioAnimation/>
         </div>
       </Carousel>
     </div>
@@ -82,6 +83,7 @@ import StarsAnimation from '@/components/animations/StarsAnimation.vue'
 import DogAnimation from '@/components/animations/DogAnimation.vue'
 import MathAnimation from '@/components/animations/MathAnimation.vue'
 import MoneyAnimation from '@/components/animations/MoneyAnimation.vue'
+import PortfolioAnimation from '@/components/animations/PortfolioAnimation.vue'
 export default {
   name: 'HomeView',
   components: {
@@ -92,6 +94,7 @@ export default {
     DogAnimation,
     MathAnimation,
     MoneyAnimation,
+    PortfolioAnimation,
   },
   data() {
     return {
