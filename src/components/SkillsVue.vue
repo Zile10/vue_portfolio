@@ -14,8 +14,8 @@
                 HTML
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Success example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  <strong>90% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-label="Success example" :style="'width: ' + details.html + '%'" :aria-valuenow="details.html" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.html }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -27,8 +27,8 @@
                 CSS
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Info example" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  <strong>90% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-label="Info example" :style="'width: ' + details.css + '%'" :aria-valuenow="details.css" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.css }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -39,8 +39,8 @@
                 JavaScript
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <strong>80% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-label="Warning example" :style="'width: ' + details.js + '%'" :aria-valuenow="details.js" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.js }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@
                 Bootstrap
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                  <strong>85% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" :style="'width: ' + details.bootstrap + '%'" :aria-valuenow="details.bootstrap" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.bootstrap }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -63,8 +63,8 @@
                 Excel
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Danger example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
-                  <strong>65% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-label="Danger example" :style="'width: ' + details.excel + '%'" :aria-valuenow="details.excel" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.excel }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -75,8 +75,8 @@
                 Soft-Skills
               </h6>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <strong>80% Proficiency</strong>
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" :style="'width: ' + details.softSkills + '%'" :aria-valuenow="details.softSkills" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.softSkills }}% Proficiency</strong>
                 </div>
               </div>
             </div>
@@ -89,7 +89,7 @@
 </template>
 <script>
 export default {
-  
+  props: ['details']
 }
 </script>
 <style scoped>

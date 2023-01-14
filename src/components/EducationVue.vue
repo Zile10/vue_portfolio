@@ -5,28 +5,28 @@
       <div data-aos="zoom-in" class="container education-block bevel">
 
         <h5 class="text-info">Secondary School:</h5>
-        <p class="my-1"><strong class="text-primary">Wynberg Boys High School</strong></p>
+        <p class="my-1"><strong class="text-primary">{{ details.secondarySchool }}</strong></p>
 
         <h6 class="text-info">Qualification:</h6>
-        <p class="my-1">National Senior Certificate</p>
+        <p class="my-1">{{ details.qualification }}</p>
 
         <h6 class="text-info">Year:</h6>
-        <p class="my-1">2021</p>
+        <p class="my-1">{{ details.year }}</p>
 
         <h6 class="text-info">Additional Achievements:</h6>
-        <p class="my-1">Chess Team</p>
+        <p class="my-1">{{ details.additionalAchievements }}</p>
 
 
         <hr data-aos="fade-right">
         <hr data-aos="fade-left">
 
         <h5 class="text-info">Courses:</h5>
-        <p><strong class="text-primary">Bergvliet High - Continuing Edecation</strong></p>
-        <p>- MS Excel Intermediate Course</p>
-        <p>- MS Excel Advanced Course</p>
+        <p><strong class="text-primary">{{ details.courses[0] }}</strong></p>
+        <p>{{ details.courses[1] }}</p>
+        <p>{{ details.courses[2] }}</p>
 
-        <p><strong class="text-primary">Life Choices Academy</strong></p>
-        <p>- 12 Month Coding Course</p>
+        <p><strong class="text-primary">{{ details.courses[3] }}</strong></p>
+        <p>{{ details.courses[4] }}</p>
 
       </div>
     </div>
@@ -34,7 +34,7 @@
 </template>
 <script>
 export default {
-  
+  props: ['details']
 }
 </script>
 <style scoped>
