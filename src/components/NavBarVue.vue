@@ -56,7 +56,7 @@ export default {
   .logo:hover {
     scale: 1.05;
     background-image: var(--primaryLinearGradient);
-    animation: 1s linear spin infinite;
+    animation: 1.5s linear spin infinite;
     animation-fill-mode: forwards;
   }
 
