@@ -57,6 +57,42 @@
               </div>
             </div>
 
+            <div data-aos="fade-right" data-aos-duration="1000" class="nodejs-skill w-100 d-flex flex-column align-items-center">
+              <h6 class="mb-0">
+                <img src="https://img.icons8.com/fluency/48/null/node-js.png"/>
+                NodeJS
+              </h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" :style="'width: ' + details.nodejs + '%'" :aria-valuenow="details.nodejs" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.nodejs }}% Proficiency</strong>
+                </div>
+              </div>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1000" class="mysql-skill w-100 d-flex flex-column align-items-center">
+              <h6 class="mb-0">
+                <img src="https://img.icons8.com/material-outlined/48/FAB005/mysql-logo.png"/>
+                MySQL
+              </h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-label="Danger example" :style="'width: ' + details.mysql + '%'" :aria-valuenow="details.mysql" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.mysql }}% Proficiency</strong>
+                </div>
+              </div>
+            </div>
+
+            <div data-aos="fade-right" data-aos-duration="1000" class="vuejs-skill w-100 d-flex flex-column align-items-center">
+              <h6 class="mb-0">
+                <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-shadow-tal-revivo.png"/>
+                VueJS
+              </h6>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Danger example" :style="'width: ' + details.vuejs + '%'" :aria-valuenow="details.vuejs" aria-valuemin="0" aria-valuemax="100">
+                  <strong>{{ details.vuejs }}% Proficiency</strong>
+                </div>
+              </div>
+            </div>
+
             <div data-aos="fade-right" data-aos-duration="1000" class="excel-skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/ms-excel.png"/>
@@ -69,7 +105,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" class="soft-skills w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-left" data-aos-duration="1000" class="soft-skills w-100 d-flex flex-column align-items-center grid-col-2">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/material-rounded/24/FFFFFF/group-task.png"/>
                 Soft-Skills
@@ -141,8 +177,21 @@ export default {
     grid-template-columns: 1fr 1fr;
   }
 
+  .grid-col-2 {
+    grid-column: span 2 !important;
+  }
+
   .bootstrap-skill .progress-bar {
     background-color: blueviolet;
+  }
+  .vuejs-skill .progress-bar {
+    background-color: lime;
+  }
+  .nodejs-skill .progress-bar {
+    background-color: green;
+  }
+  .soft-skills .progress-bar {
+    background-color: blue;
   }
 
   @media only screen and (max-width: 720px) {

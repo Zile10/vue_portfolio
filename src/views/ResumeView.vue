@@ -42,6 +42,9 @@ export default {
           css: '90',
           js: '80',
           bootstrap: '85',
+          nodejs: '90',
+          mysql: '85',
+          vuejs: '90',
           excel: '65',
           softSkills: '85',
         }
