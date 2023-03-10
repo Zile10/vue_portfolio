@@ -1,5 +1,5 @@
 <template>
-  <div id="resume">
+  <div id="resume" class="">
 
     <EducationVue :details="resume[0]"/>
 

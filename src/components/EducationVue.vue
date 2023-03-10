@@ -1,8 +1,8 @@
 <template>
   <div id="education" class="d-flex flex-column align-items-center work-section">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Education</h2>
-      <div data-aos="zoom-in" class="container education-block bevel">
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn mt-3">Education</h2>
+      <div data-aos="zoom-in" class="container education-block bevel mt-3">
 
         <h5 class="text-info">Secondary School:</h5>
         <p class="my-1"><strong class="text-primary">{{ details.secondarySchool }}</strong></p>

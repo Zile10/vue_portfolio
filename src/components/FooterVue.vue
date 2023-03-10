@@ -12,19 +12,19 @@
         <div class="container-fluid d-flex justify-content-center align-items-center footer-items">
           <div class="github footer-item">
             <a href="https://github.com/Zile10" target="_blank">
-              <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/github.png" loading="lazy" class="d-inline">
+              <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/github.png" class="d-inline">
               <p class="d-inline">Github</p>
             </a>
           </div>
           <div class="gmail footer-item">
             <a href="mailto:johnnoad04@gmail.com" target="_blank">
-              <img src="https://img.icons8.com/fluency/48/null/gmail.png" loading="lazy" class="d-inline">
+              <img src="https://img.icons8.com/fluency/48/null/gmail.png" class="d-inline">
               <p class="d-inline">Gmail</p>
             </a>
           </div>
           <div class="codepen footer-item">
             <a href="https://codepen.io/Zile10" target="_blank">
-              <img src="https://img.icons8.com/ios/50/FFFFFF/codepen.png" loading="lazy" class="d-inline">
+              <img src="https://img.icons8.com/ios/50/FFFFFF/codepen.png" class="d-inline">
               <p class="d-inline">Codepen</p>
             </a>
           </div>
@@ -70,4 +70,6 @@ export default {
   footer img {
     width: 25px;
   }
+
+  
 </style>

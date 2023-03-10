@@ -4,7 +4,7 @@
         <h1 class="d-block intro animate__animated animate__bounceIn" data-aos="zoom-in">Hi There</h1>
         <div class="d-block">
           <h4 data-aos="fade-left">I am John-Bruce Noad. Welcome to my page!</h4>
-          <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img img-fluid">
+          <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" class="profile-img img-fluid">
           <h5><strong>Aspiring Software & Web Developer</strong></h5>
         </div>
       </div>

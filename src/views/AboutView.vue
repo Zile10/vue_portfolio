@@ -1,9 +1,9 @@
 <template>
   <div id="about">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">About Me</h2>
-      <div class="container-fluid container-lg about-container" data-aos="fade-right">
-        <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" loading="lazy" class="profile-img about-img d-block">
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn mt-2">About Me</h2>
+      <div class="container-fluid container-lg about-container my-3" data-aos="fade-right">
+        <img src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png" alt="John-Bruce Profile" data-aos="fade-right" class="profile-img about-img d-block">
           <div class="about-text bevel" data-aos="fade-left">
             <h5 data-aos="zoom-in">Who am I?</h5>
             <p data-aos="zoom-in" class="scroll">

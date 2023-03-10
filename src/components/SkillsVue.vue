@@ -1,14 +1,14 @@
 <template>
   <div id="skills" class="d-flex flex-column align-items-center work-section">
     <div class="section-overlay">
-      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn">Skills</h2>
+      <h2 data-aos="zoom-in" class="animate__animated animate__bounceIn mt-3">Skills</h2>
       <div data-aos="zoom-in" class="d-flex flex-column align-items-center justify-content-center">
 
-        <div class="container skills-block bevel mt-5">
+        <div class="container skills-block bevel mt-2 mb-4">
           <h4 cla>Skills:</h4>
-          <div class="container skills-grid">
+          <div class="container skills-grid pb-3">
             
-            <div data-aos="fade-right" data-aos-duration="1000" class="html-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="html-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/html-5--v1.png"/>
                 HTML
@@ -20,7 +20,7 @@
               </div>
             </div>
   
-            <div data-aos="fade-left" data-aos-duration="1000" class="css-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-left" data-aos-duration="1000" class="css-skill skill w-100 d-flex flex-column align-items-center">
               <img src="" alt="">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/css3.png"/>
@@ -33,7 +33,7 @@
               </div>
             </div>
   
-            <div data-aos="fade-right" data-aos-duration="1000" class="javascript-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="javascript-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
                 JavaScript
@@ -45,7 +45,7 @@
               </div>
             </div>
   
-            <div data-aos="fade-left" data-aos-duration="1000" class="bootstrap-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-left" data-aos-duration="1000" class="bootstrap-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/bootstrap.png"/>
                 Bootstrap
@@ -57,7 +57,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1000" class="nodejs-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="nodejs-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/fluency/48/null/node-js.png"/>
                 NodeJS
@@ -69,7 +69,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1000" class="mysql-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="mysql-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/material-outlined/48/FAB005/mysql-logo.png"/>
                 MySQL
@@ -81,7 +81,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1000" class="vuejs-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="vuejs-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-vuejs-an-open-source-javascript-framework-for-building-user-interfaces-and-single-page-applications-logo-shadow-tal-revivo.png"/>
                 VueJS
@@ -93,7 +93,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-right" data-aos-duration="1000" class="excel-skill w-100 d-flex flex-column align-items-center">
+            <div data-aos="fade-right" data-aos-duration="1000" class="excel-skill skill w-100 d-flex flex-column align-items-center">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/color/48/null/ms-excel.png"/>
                 Excel
@@ -105,7 +105,7 @@
               </div>
             </div>
 
-            <div data-aos="fade-left" data-aos-duration="1000" class="soft-skills w-100 d-flex flex-column align-items-center grid-col-2">
+            <div data-aos="fade-left" data-aos-duration="1000" class="soft-skills skill w-100 d-flex flex-column align-items-center grid-col-2">
               <h6 class="mb-0">
                 <img src="https://img.icons8.com/material-rounded/24/FFFFFF/group-task.png"/>
                 Soft-Skills
@@ -226,23 +226,8 @@ export default {
       height: 550px;
       margin-bottom: 40px;
     }
-    .html-skill {
-      grid-column: 1/-1;
-    }
-    .css-skill {
-      grid-column: 1/-1;
-    }
-    .javascript-skill {
-      grid-column: 1/-1;
-    }
-    .bootstrap-skill {
-      grid-column: 1/-1;
-    }
-    .excel-skill {
-      grid-column: 1/-1;
-    }
-    .soft-skills {
-      grid-column: 1/-1;
+    .skill {
+      grid-column: 1/-1
     }
   }
 
