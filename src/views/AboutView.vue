@@ -17,7 +17,7 @@
         <div class="about-text text-block bevel" data-aos="fade-left">
           <h5 data-aos="zoom-in">Who am I?</h5>
           <p data-aos="zoom-in" class="scroll">
-            I am a young 19 year old young man, born and raised in Cape Town
+            I am a 19 year old man, born and raised in Cape Town
             South Africa. I was raised in primarily Afrikaans family, with
             strong Christian values. I have, however, always been in english
             schools where I was surrounded by different cultures and beliefs. I
