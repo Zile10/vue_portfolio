@@ -35,16 +35,15 @@
           </p>
           <div class="cv-btns" data-aos="zoom-in">
             <a
-              href="https://drive.google.com/file/d/1DJbRrfjiwCsHI2xIkCYnIDgU8Q-KOd_S/view?usp=share_link"
+              href="https://drive.google.com/file/d/1kAekjScpNCVTlrPyTjanIhoEkvI_YSZQ/view?usp=sharing"
               target="_blank"
               ><button class="cv-open bevel">View CV</button></a
             >
-            <a href="./CV (John-Bruce Noad).pdf" download><button class="cv-download bevel">
+            <a href="./CV (John-Bruce Noad 2023).pdf" download><button class="cv-download bevel">
                 Download CV
               </button></a>
           </div>
         </div>
-
 
         <div class="interests-text text-block bevel" data-aos="fade-in">
           <h5 data-aos="zoom-in">Hobbies and Interests:</h5>
@@ -94,7 +93,7 @@
 export default {
   name: "HomeView",
   components: {
-    // HelloWorld
+    
   },
 };
 </script>
