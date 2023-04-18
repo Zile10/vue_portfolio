@@ -3,7 +3,6 @@
     <router-link to="/" class="logo-link animate__animated animate__bounce animate__delay-1s">
       <img class="logo" src="https://i.postimg.cc/RVMYyxKL/INTJ-white.png" alt="">
     </router-link>    
-
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/resume">Resume</router-link> |
@@ -23,6 +22,7 @@ export default {
 
   nav {
     padding: 30px;
+    background-color: var(--colorPrimary);
   }
 
   nav a {
@@ -31,32 +31,31 @@ export default {
   }
   nav a:hover {
     font-weight: bold;
-    color: #6bff2c;
+    color: var(--textColorPrimary) !important;
   }
 
   nav a.router-link-exact-active {
-    color: #42b983 !important;
+    color: var(--textColorSecondary);
   }
 
   nav {
     box-shadow: 0 0 10px 5px black !important;
     word-wrap: break-word;
-    padding: 15px;
+    padding: 10px;
     z-index: 50;
     position: relative;
   }
   .logo {
-    /* filter: invert(100%); */
-    width: 90px;
-    border-radius: 60px;
-    box-shadow: 0 0 6px 2px black;
+    width: 80px;
+    border-radius: 55px;
+    box-shadow: 0 0 3px 0px black;
     scale: 1;
     margin-right: 20px;
   }
   .logo:hover {
+    background-color: var(--textColorPrimary);
     scale: 1.05;
-    background-image: var(--primaryLinearGradient);
-    animation: 1.5s linear spin infinite;
+    animation: 2s ease-in-out spin infinite;
     animation-fill-mode: forwards;
   }
 

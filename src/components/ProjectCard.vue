@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="card project-card bevel col-12 col-sm-4 col-md-3 bg-dark">
+  <div class="card project-card bevel col-12 col-sm-4 col-md-3">
     <h3 data-aos="zoom-in"><br> {{ title }} </h3>
     <a :href="siteUrl" target="_blank" data-aos="zoom-in">
       <img :src="imgSrc" alt="" class="project-preview">
@@ -25,6 +25,6 @@ export default {
 <style>
   div.card {
     z-index: 2;
-    background-color: transparent;
+    background-color: var(--colorPrimary);
   }
 </style>

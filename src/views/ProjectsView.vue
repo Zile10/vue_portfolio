@@ -41,7 +41,7 @@
             :imgSrc="projects[2].imgSrc" 
             :description="projects[2].description"
           />
-          <DogAnimation/>
+          <MathAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -52,7 +52,7 @@
             :imgSrc="projects[3].imgSrc" 
             :description="projects[3].description"
           />
-          <MathAnimation/>
+          <MoneyAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -63,7 +63,7 @@
             :imgSrc="projects[4].imgSrc" 
             :description="projects[4].description"
           />
-          <MoneyAnimation/>
+          <PortfolioAnimation/>
         </div>
   
         <div class="carousel-item">
@@ -74,7 +74,7 @@
             :imgSrc="projects[5].imgSrc" 
             :description="projects[5].description"
           />
-          <PortfolioAnimation/>
+          <MarsAnimation/>
         </div>
       </Carousel>
     </div>
@@ -87,10 +87,11 @@ import ProjectCard from '@/components/ProjectCard.vue'
 
 import BallsAnimation from '@/components/animations/BallsAnimation.vue'
 import StarsAnimation from '@/components/animations/StarsAnimation.vue'
-import DogAnimation from '@/components/animations/DogAnimation.vue'
 import MathAnimation from '@/components/animations/MathAnimation.vue'
 import MoneyAnimation from '@/components/animations/MoneyAnimation.vue'
 import PortfolioAnimation from '@/components/animations/PortfolioAnimation.vue'
+import MarsAnimation from '@/components/animations/MarsAnimation.vue'
+
 export default {
   name: 'HomeView',
   components: {
@@ -98,11 +99,11 @@ export default {
     ProjectCard,
     BallsAnimation,
     StarsAnimation,
-    DogAnimation,
     MathAnimation,
     MoneyAnimation,
     PortfolioAnimation,
-  },
+    MarsAnimation
+},
   data() {
     return {
       projects: [
@@ -121,14 +122,6 @@ export default {
           imgSrc: "https://i.postimg.cc/tTd1vdy3/canvas-Boucy-Balls-preview.png",
           description: "After learning about canvas.js and all it could do, I began practising using it, by building a few basic simulations. This gravity simulation, was one of those first few simulation. Tip: Click anywhere to restart the simulation.",
           animation: "BallsAnimation"
-        },
-        {
-          project: "Life Choices HTML/CSS Revision Project",
-          siteUrl: "https://revision-dummy.netlify.app/",
-          githubRepo: "https://github.com/Zile10/revision_day.git",
-          imgSrc: "https://i.postimg.cc/FKD8y8k3/revision-site-preview.png",
-          description: "A revision project I created during the Life Choices coding course, incorporating various HTML and CSS elements. This includes the use of flexbox, grid, media queries and various other elements used when creating a responsive webpage.",
-          animation: "DogAnimation"
         },
         {
           project: "JS Calculator",
@@ -154,6 +147,15 @@ export default {
           description: "My original portfolio, created in the LC Coding course. This portfolio makes use of only HTML, CSS and a few related libraries, such as bootstrap and Animate On Scroll. I am quite proud of this design, and managed to score highly on this project! 😄",
           animation: "PortfolioAnimation"
         },
+        {
+          project: "Life Choices Academy Capstone Project",
+          siteUrl: "https://lc-capstone-project.web.app/",
+          githubRepo: "https://github.com/Zile10/capstone-project.git",
+          imgSrc: "https://i.postimg.cc/Jn2X7n09/Stratagem-preview.png",
+          description: "",
+          animation: "DogAnimation"
+        },
+
       ]
     }
   },
@@ -190,7 +192,7 @@ export default {
 }
 
 .project-btn {
-  background-color: #333;
+  background-color: var(--colorPrimary);
   color: #fff;
   padding: 3px 5px;
   cursor: pointer;

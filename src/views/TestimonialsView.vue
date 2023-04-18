@@ -103,7 +103,7 @@ div.scroll {
   border-radius: 50px;
 }
 .scroll::-webkit-scrollbar-thumb {
-  background-image: var(--primaryLinearGradient);
+  background-color: var(--textColorPrimary);
   border-radius: 50px;
 }
 .scroll:hover {
@@ -111,13 +111,14 @@ div.scroll {
 }
 .testimonial-card .btn {
   margin-top: 10px;
-  background-color: var(--secondaryColor);
-  border-color: var(--secondaryColor);
+  background-color: var(--textColorPrimary);
+  border: none;
 }
 .testimonial-card .btn:hover {
   background-image: var(--primaryLinearGradient);
-  border-color: var(--secondaryColor);
   scale: 1.05;
+  color: var(--colorPrimary);
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 900px) {

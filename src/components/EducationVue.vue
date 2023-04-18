@@ -50,7 +50,7 @@ export default {
     width: 70%;
     min-height: 400px;
     padding: 15px;
-    background-color: var(--primaryColor);
+    background-color: var(--colorPrimary);
     display: grid;
     border-radius: 3px;
     grid-template-columns: 1fr 1fr;

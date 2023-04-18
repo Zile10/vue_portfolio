@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <footer class="bg-dark text-light">
+    <footer class="text-light">
       <div class="footer d-block flex-column">
 
         <div class="info">
@@ -22,10 +22,16 @@
               <p class="d-inline">Gmail</p>
             </a>
           </div>
-          <div class="codepen footer-item">
+          <!-- <div class="codepen footer-item">
             <a href="https://codepen.io/Zile10" target="_blank">
               <img src="https://img.icons8.com/ios/50/FFFFFF/codepen.png" class="d-inline">
               <p class="d-inline">Codepen</p>
+            </a>
+          </div> -->
+          <div class="linkedin footer-item">
+            <a href="https://www.linkedin.com/in/john-bruce-noad-518171266/" target="_blank">
+              <img src="https://img.icons8.com/color/48/null/linkedin.png">
+              <p class="d-inline">LinkedIn</p>
             </a>
           </div>
         </div>
@@ -50,6 +56,7 @@ export default {
     padding: 15px;
     text-align: center;
     word-wrap: break-word;
+    background-color: var(--colorPrimary);
   }
 
   footer .info p {

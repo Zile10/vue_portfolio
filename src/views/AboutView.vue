@@ -17,7 +17,7 @@
         <div class="about-text text-block bevel" data-aos="fade-left">
           <h5 data-aos="zoom-in">Who am I?</h5>
           <p data-aos="zoom-in" class="scroll">
-            I am a 19 year old man, born and raised in Cape Town
+            I am a 19 year old, born and raised in Cape Town
             South Africa. I was raised in primarily Afrikaans family, with
             strong Christian values. I have, however, always been in english
             schools where I was surrounded by different cultures and beliefs. I
@@ -128,12 +128,13 @@ export default {
   padding-bottom: 25px;
 }
 .text-block {
-  background-color: var(--primaryColor);
+  background-color: var(--colorPrimary);
   padding: 15px 30px;
   border-radius: 3px;
 }
 span {
-  color: lime;
+  color: var(--textColorSecondary);
+  font-weight: bold;
 }
 .about-text p {
   max-height: 300px !important;
@@ -154,13 +155,14 @@ span {
   grid-column: 1/-1;
 }
 .cv-open {
-  background-color: darkcyan;
+  background-color: var(--textColorSecondary);
+  text-shadow: 0 0  2px black;
   margin: 10px;
   padding: 5px;
   font-weight: bold;
 }
 .cv-download {
-  background-color: crimson;
+  background-color: var(--textColorPrimary);
   margin: 10px;
   padding: 5px;
   font-weight: bold;
@@ -168,6 +170,7 @@ span {
 .cv-open:hover {
   scale: 1.05;
   background-image: var(--primaryLinearGradient);
+  text-shadow: none;
 }
 .cv-download:hover {
   scale: 1.05;
@@ -196,7 +199,7 @@ span {
   border-radius: 50px;
 }
 .scroll::-webkit-scrollbar-thumb {
-  background-image: var(--primaryLinearGradient);
+  background-color: var(--textColorPrimary);
   border-radius: 50px;
 }
 .scroll:hover {

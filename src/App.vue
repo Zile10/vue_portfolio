@@ -17,24 +17,39 @@ export default{
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  /* color: #2c3e50; */
-  color: #fff;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Sono&family=Space+Grotesk&display=swap');
 
 :root{
   --navHeight: 100px;
   --primaryBoxShadow: 4px 4px 6px black;
   --bevel:   box-shadow:  inset 0.2em 0.2em 0.2em 0 rgba(200,200,200,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5), 0 0 15px 2px black;
   --bevel2:  box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5), 0 0 15px 2px black;
-  --primaryColor: #333333;
-  --secondaryColor: darkcyan;
-  --primaryLinearGradient: linear-gradient(45deg, #42b983, #6bff2c);
+  --colorPrimary: #232328dd;
+  --colorSecondary: #fff;
+  --textColorPrimary: crimson;
+  --textColorSecondary: #43AA8B;
+  --primaryLinearGradient: linear-gradient(45deg, #B9B8D3, #B9B8D3);
   --secondaryColorInverted: #6bff2c;
+  --font1: 'space grotesk';
+  --font2: 'comfortaa';
+  --font3: 'sono';
+}
+#app {
+  font-family: var(--font1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #fff;
+}
+button {
+  color: var(--colorSecondary);
+}
+button:hover {
+  color: var(--colorPrimary);
+}
+p {
+  font-family: var(--font2);
+  font-size: 15px;
 }
 
 .section-overlay{
@@ -48,20 +63,16 @@ body{
   overflow-x: hidden;
 }
 body::-webkit-scrollbar {
-  width: 15px;
-  border-radius: 50px;
-  background-color: #222;
+  width: 8px;
 }
 body::-webkit-scrollbar-track {
-  background-color: #555;
+  background-color: #ddd;
   border-radius: 50px;
-  border: 1px solid darkviolet;
 }
 body::-webkit-scrollbar-thumb {
-  background-image: var(--primaryLinearGradient);
+  background-color: var(--textColorPrimary);
   border-radius: 50px;
-  border: 1px solid black;
-  box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5);
+  /* box-shadow:  inset 0.1em 0.1em 0.1em 0 rgba(200,200,200,0.5), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.5); */
 }
 div#home, div#about, div#projects, div#resume, div#testimonials, div#contact {
   width: 100%;
@@ -90,9 +101,15 @@ h1, h2, h3, h4 {
   0% {
     transform: rotate(0deg);
   }
+  /* 25% {
+    transform: rotate(90deg);
+  }
   50% {
     transform: rotate(180deg);
   }
+  75% {
+    transform: rotate(270deg);
+  } */
   100% {
     transform: rotate(360deg);
   }

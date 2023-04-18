@@ -150,7 +150,7 @@ export default {
     min-height: 400px;
     padding: 15px;
     border-radius: 3px;
-    background-color: var(--primaryColor);
+    background-color: var(--colorPrimary);
   }
 
   .skills-block .container {
