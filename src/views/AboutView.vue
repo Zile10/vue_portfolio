@@ -9,7 +9,7 @@
         data-aos="fade-right"
       >
         <img
-          src="https://i.postimg.cc/FRXqRxkW/john-bruce-noad-portfolio-photo.png"
+          src="https://i.postimg.cc/fy0p3Y9k/john-bruce-noad-portfolio-photo.jpg"
           alt="John-Bruce Profile"
           data-aos="fade-right"
           class="profile-img about-img d-block"

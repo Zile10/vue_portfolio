@@ -23,8 +23,13 @@ export default {
   nav {
     padding: 30px;
     background-color: var(--colorPrimary);
+    word-wrap: break-word;
+    padding: 10px;
+    z-index: 50;
+    /* position: sticky;
+    top: 0;
+    background-color: #232328; */
   }
-
   nav a {
     font-weight: bold;
     color: white;
@@ -38,13 +43,6 @@ export default {
     color: var(--textColorSecondary);
   }
 
-  nav {
-    box-shadow: 0 0 10px 5px black !important;
-    word-wrap: break-word;
-    padding: 10px;
-    z-index: 50;
-    position: relative;
-  }
   .logo {
     width: 80px;
     border-radius: 55px;
