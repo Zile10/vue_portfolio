@@ -152,7 +152,7 @@ export default {
           siteUrl: "https://lc-capstone-project.web.app/",
           githubRepo: "https://github.com/Zile10/capstone-project.git",
           imgSrc: "https://i.postimg.cc/Jn2X7n09/Stratagem-preview.png",
-          description: "",
+          description: "The final, Capstone project for the Life Choices Academy coding course. This project incorporates all of the skills we have learnt thoughtout the course.",
           animation: "DogAnimation"
         },
 
