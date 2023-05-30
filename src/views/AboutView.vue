@@ -35,11 +35,11 @@
           </p>
           <div class="cv-btns" data-aos="zoom-in">
             <a
-              href="https://drive.google.com/file/d/1kAekjScpNCVTlrPyTjanIhoEkvI_YSZQ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ymc0mJ-2FW9eA9ZIVT8O0Auoe3NWWtVA/view?usp=sharing"
               target="_blank"
               ><button class="cv-open bevel">View CV</button></a
             >
-            <a href="./CV (John-Bruce Noad 2023).pdf" download><button class="cv-download bevel">
+            <a href="./John-Bruce Noad CV Resume.pdf" download><button class="cv-download bevel">
                 Download CV
               </button></a>
           </div>
